@@ -1,7 +1,14 @@
 {
-  "name": "nextjs-tailwind-landing-page",
+  "name": "stranger-things-landing-page",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "dedaldinodev4@gmail.com",
+    "name": "Dedaldino Daniel"
+  },
+  "repository": {
+    "url": "https://github.com/dedaldinodev4/stranger-things-website.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
