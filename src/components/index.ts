@@ -1,4 +1,6 @@
 export { Session } from './Session'
-export { Hero } from './Hero/Hero'
+export { Hero } from './Hero'
 export { Gallery } from './Gallery'
+export { NavBar } from './NavigationBar'
+export { Slider } from './Slider'
 export { Character } from './Character'

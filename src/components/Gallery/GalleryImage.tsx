@@ -5,7 +5,7 @@ interface Props {
   image: any;
 }
 
-export const GridImg = ({ image }: Props) => {
+export const GalleryImage = ({ image }: Props) => {
   return (
     <Image
       src={image}

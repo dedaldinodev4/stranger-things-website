@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-import Img1 from '../../assets/Gallery/10.png';
-import Img2 from '../../assets/Gallery/4.jpg';
-import Img3 from '../../assets/Gallery/13.jpeg';
-import Img4 from '../../assets/st/bg.jpg';
-import Img5 from '../../assets/Gallery/12.jpg';
+//* Images *//
+import Img1 from '../../../assets/Gallery/10.png';
+import Img2 from '../../../assets/seasons/S01.jpg';
+import Img3 from '../../../assets/seasons/S03.jpg';
+import Img4 from '../../../assets/seasons/S04.png';
+import Img5 from '../../../assets/seasons/S05.jpg';
 
 export const Session = () => {
   return (

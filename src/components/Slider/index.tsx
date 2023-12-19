@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
+import { SliderData } from "./data";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 interface Props {
   slides: any;
 }
 
-const Slider = ({ slides }: Props) => {
+export const Slider = ({ slides }: Props) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -61,4 +61,3 @@ const Slider = ({ slides }: Props) => {
   );
 };
 
-export default Slider;

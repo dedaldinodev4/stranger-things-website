@@ -1,10 +1,9 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import logoImg from '../../assets/st/logotype.png'
 
-const NavBar = () => {
+
+export const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
@@ -32,20 +31,7 @@ const NavBar = () => {
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-center items-center p-4 text-[#8D8D8D]">
-        
-          {/*<Link href="/">
 
-              <Image
-                src={logoImg}
-                alt="/"
-                className="h-auto"
-                width={100}
-                height={100}
-              />
-            
-          </Link>*/}
-
-        
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex font-bold uppercase">
           <li className="p-4 hover:text-[#BE2627]">
             <Link href="/">
@@ -59,12 +45,12 @@ const NavBar = () => {
             <Link href="/#gallery">Galeria</Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
-            <Link href="/#characters">Personagens</Link>
+            <Link href="/#character">Personagens</Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
-            <Link href="/#sessions">Temporadas</Link>
+            <Link href="/#session">Temporadas</Link>
           </li>
-         
+
         </ul>
 
         {/* Mobile Button */}
@@ -106,13 +92,13 @@ const NavBar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#characters">Personangens</Link>
+              <Link href="/#character">Personangens</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#sessions">Temporadas</Link>
+              <Link href="/#session">Temporadas</Link>
             </li>
 
           </ul>
@@ -121,5 +107,3 @@ const NavBar = () => {
     </div>
   );
 };
-
-export default NavBar;

@@ -6,7 +6,7 @@ interface Props {
   name: string;
 }
 
-const CharacterImg = ({ socialImg, name }: Props) => {
+export const CharacterImage = ({ socialImg, name }: Props) => {
   return (
     <div className="relative ring-1 ring-slate-900/5 shadow-xl rounded-lg dark:bg-slate-800 cursor-pointer">
       <Image
@@ -23,5 +23,3 @@ const CharacterImg = ({ socialImg, name }: Props) => {
     </div>
   );
 };
-
-export default CharacterImg;
