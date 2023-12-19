@@ -16,15 +16,14 @@ import Img13 from "../../assets/Gallery/13.jpeg";
 
 
 import { GridImg } from './Gallery';
+import { slideIn } from '../../src/utils/motion';
 
 
-const Gallery = () => {
+export const Gallery = () => {
   return (
     <div className='max-w-[1240px] mx-auto text-center py-4'>
       <p className="text-slate-900 dark:text-white text-2xl font-bold pb-4">Galeria</p>
       <motion.div
-        animate={{ x: 100 }}
-        transition={{ type: "spring", stiffness: 100 }}
 
         className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="grid gap-4">
@@ -75,5 +74,3 @@ const Gallery = () => {
     </div>
   )
 }
-
-export default Gallery;

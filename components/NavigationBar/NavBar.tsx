@@ -53,16 +53,16 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
-            <Link href="/#portfolio">Sobre</Link>
+            <Link href="/#about">Sobre</Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
             <Link href="/#gallery">Galeria</Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
-            <Link href="/#portfolio">Personagens</Link>
+            <Link href="/#characters">Personagens</Link>
           </li>
           <li className="p-4 hover:text-[#BE2627]">
-            <Link href="/#portfolio">Notícias</Link>
+            <Link href="/#sessions">Temporadas</Link>
           </li>
          
         </ul>
@@ -88,19 +88,31 @@ const NavBar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/">Home</Link>
+              <Link href="/">Início</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#gallery">Gallery</Link>
+              <Link href="/#about">Sobre</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#portfolio">History</Link>
+              <Link href="/#gallery">Galeria</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#characters">Personangens</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/#sessions">Temporadas</Link>
             </li>
 
           </ul>

@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Hero from "../components/Hero/Hero";
+import { Hero } from "../components";
 import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
-import Character from "../components/Character";
-import Portfolio from "../components/Portfolio/Portfolio";
-import Contact from "../components/Contact/Contact";
-import Gallery from "../components/Gallery";
+import {Character} from "../components";
+
+import {Gallery} from "../components";
+import { Session } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -22,8 +22,7 @@ const Home: NextPage = () => {
       {/* <Slider slides={SliderData} /> */}
       {/* <Character /> */}
       <Gallery />
-      <Portfolio />
-      <Contact />
+      <Session />
     </>
   );
 };

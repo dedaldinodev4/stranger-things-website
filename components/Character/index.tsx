@@ -7,7 +7,7 @@ import IgImg5 from "../../assets/characters/dustin.jpg";
 import IgImg6 from "../../assets/characters/mike.jpg";
 import CharacterImg from "./CharacterImg";
 
-const Character = () => {
+export const Character = () => {
   return (
     <div className="max-w-[1240px] mx-auto text-center py-4 dark:bg-slate-800">
       <p className="text-slate-900 dark:text-white text-2xl font-bold">Characters</p>
@@ -24,4 +24,3 @@ const Character = () => {
   );
 };
 
-export default Character;
