@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-//* Images *//
+//* Images *// 
 import Img1 from '../../../assets/Gallery/10.png';
 import Img2 from '../../../assets/seasons/S01.jpg';
 import Img3 from '../../../assets/seasons/S03.jpg';
@@ -65,6 +65,6 @@ export const Session = () => {
       </div>
     </div>
   );
-};
+}; 
 
 
